@@ -1,5 +1,5 @@
 .header {
-    background: #2eb867;
+    background: #198b4b;
     color: rgb(233, 233, 233);
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,7 @@
     text-align: center;
 }
 .hero-content{
-    color: rgb(41, 151, 78);
+    color: rgb(18, 63, 32);
 }
 .grid-productos{
     display: grid;

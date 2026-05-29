@@ -1,0 +1,23 @@
+.card{
+    background: rgb(243, 243, 216);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translate(-10px);
+}
+.card h3{
+    margin: 10px 0;
+}
+button{
+    background: #1a8f4b;
+    color: rgb(253, 253, 253);
+    border: none;
+    padding: 10px 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
