@@ -1,5 +1,5 @@
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     background-image: url(../img/icons/fondo.png);
     color: #0e7928;
@@ -21,6 +21,10 @@ body {
 
 }
 
+section{
+    width: 100%;
+}
+
 header img {
     width: 20%;
     height: auto;
@@ -32,7 +36,7 @@ img {
     margin: 25px;
     justify-content: center;
     align-items: center;
- 
+
 
 }
 
@@ -45,12 +49,14 @@ a {
     padding: 0;
     box-sizing: border-box;
 }
-.nav-links{
+
+.nav-links {
     display: inline-block;
     position: sticky;
 
 }
-.header{
+
+.header {
     background: #27ae60;
     color: white;
     display: flex;
@@ -58,18 +64,16 @@ a {
     align-items: center;
     padding: 20px;
 }
-.grid-productos {
-    display:grid;
-    border-radius: 10px;
 
-}
+
 @media screen {
     .grid-productos {
         flex-direction: column;
         gap: 30px;
     }
-    
+
 }
+
 img {
     width: 50%;
     border-radius: 10%;
